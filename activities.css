@@ -1,0 +1,208 @@
+
+.activities-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  background: linear-gradient(92deg, #FC6373 1.05%, #FE9548 98.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  margin-bottom: 45px;
+  margin-top: 70px;
+}
+
+.activities .see-more {
+  margin: 40px 0 30px 0;
+}
+
+.activities .see-more a {
+  text-decoration: none;
+  border: 1px solid #FC6373;
+  background: linear-gradient(92deg, #FC6373 1.05%, #FE9548 98.6%);
+  -webkit-background-clip: text;
+  -webkit-color: transparent;
+  background-clip: text;
+  color: transparent;
+  padding: 10px 30px;
+  border-radius: 35px;
+  letter-spacing: 0.03em;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px; 
+  padding: 15px 65px;
+}
+
+.activities .see-more a:hover {
+  background: linear-gradient(92deg, #FC6373 1.05%, #FE9548 98.6%);
+  color: #fff;
+}
+
+.activities_read_more a:hover {
+  background: linear-gradient(92deg, #FC6373 1.05%, #FE9548 98.6%);
+  color: #fff;
+  border: none;
+}
+
+
+.activities {
+  position: relative;
+}
+.activities .team-information-text-title {
+  margin-top: 120px;
+}
+
+.activities .item {
+  width: 472px;
+  transition: all 0.5s;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.activities .item img {
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.activities .item:hover img {
+  transform: scale(1.1);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
+.activities .item {
+  position: relative;
+}
+
+.activities .item .item-activities-text {
+  position: absolute;
+  bottom: 0;
+
+}
+
+.activities .item .item-activities-text .item-activities-text-label {
+  position: relative;
+  width: 65px;
+  height: 20px;
+  background-color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  padding: 4px 12px;
+  border-radius: 5px;
+  transform: translateY(50px);    
+  transition: all 0.5s;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.activities .item .item-activities-text .item-activities-text-label-meeting {
+  color: #FF4869;
+}
+
+.activities .item .item-activities-text .item-activities-text-label-camping {
+  color: #039A36;
+}
+
+.activities .item .item-activities-text .item-activities-text-label-extra {
+  color: #015AE0;
+  width: 122px !important;
+}
+
+
+
+.activities .item .item-activities-text h5 {
+  margin-top: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  transform: translateY(50px);
+  transition: all 0.5s;
+}
+
+.activities .item:hover .item-activities-text h5,
+.activities .item:hover .item-activities-text .item-activities-text-label {
+  transform: translateY(0);
+}
+
+.activities .item .item-activities-text .item-activities-text-sub {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  color: #E9E9E9;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.4s, opacity 0.4s;
+}
+
+.activities .item:hover .item-activities-text .item-activities-text-sub {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 0.4s;
+}
+
+.activities .item .item-activities-text .item-activities-text-time {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #D7D7D7;
+}
+
+.owl-next,
+.owl-prev {
+  font-size: 24px !important;
+  padding: 30px !important;
+  margin: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50% !important;
+  color: #FE9548  !important;
+  background:rgba(255, 255, 255, 0.4) !important;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  background: linear-gradient(92deg, #FC6373 1.05%, #FE9548 98.6%) !important;
+  color: #fff !important;
+}
+
+.owl-next {
+  position: absolute;
+  right: -12px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.owl-prev {
+  position: absolute;
+  left: -12px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
