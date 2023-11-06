@@ -7,6 +7,13 @@
   margin-right: -8px; */
 }
 
+.place-img {
+  /* width: 245px; */
+  width: 100%;
+  /* inline luôn có 1 chút margin */
+  display: block;
+}
+
 /* Reset css */
 * {
   margin: 0;
