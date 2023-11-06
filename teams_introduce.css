@@ -1,3 +1,11 @@
+/* cua hinh anh hoat dong */
+.place-list {
+  margin-top: 32px;
+  margin-bottom: 48px;
+  /* kỹ thuật loại bỏ padding 2 phía (có thể thay bằng row) */
+  /* margin-left: -8px;
+  margin-right: -8px; */
+}
 
 /* Reset css */
 * {
